@@ -38,7 +38,7 @@ bitis_zamani = time.time()
 gecen_sure = bitis_zamani - baslama_zamani
 basari_orani = ucgen_sayisi / deneme
 
-print(f"1.000.000 denemede {ucgen_sayisi} sayida ücgen %{basari_orani} basari ile {gecen_sure} saniyede olustu")
+print(f"1.000.000 denemede {ucgen_sayisi} sayida ücgen %{basari_orani * 100} basari ile {gecen_sure} saniyede olustu")
 
 
 
